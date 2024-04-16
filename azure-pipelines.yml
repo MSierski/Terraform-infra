@@ -11,7 +11,7 @@ variables:
   dockerRegistryServiceConnection: 'b262677f-bb06-42e8-aebf-183d56166d1d'
   imageRepository: 'msierskiuionazure'
   containerRegistry: 'msifioridockerapp.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/FioriSampleApp'
+  dockerfilePath: '$(Build.SourcesDirectory)/FioriSampleApp/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
