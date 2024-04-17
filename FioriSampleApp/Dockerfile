@@ -1,6 +1,6 @@
 FROM node:alpine
 WORKDIR /usr/app
-RUN npm set @sap:registry=https://npm.sap.com
+RUN npm set @sap:registry=https://registry.npmjs.org
 COPY . .
 RUN npm install
 EXPOSE 8080
