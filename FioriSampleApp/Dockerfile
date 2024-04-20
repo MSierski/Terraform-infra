@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM node:18-alpine
 WORKDIR /usr/app
 RUN npm set @sap:registry=https://registry.npmjs.org
 COPY . .
