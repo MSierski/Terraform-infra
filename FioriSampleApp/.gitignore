@@ -9,3 +9,7 @@ deployer/resources/
 Makefile*
 mta-*
 approuter/*/webapp/
+terraform.tfstate.backup
+terraform.tfstate
+.terraform
+.terraform.lock.hcl
