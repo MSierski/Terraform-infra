@@ -8,7 +8,7 @@ variables:
   # Container registry service connection established during pipeline creation
   azureSubscription: 'Azure for Students'
   appName: 'samplefioriapp'
-  dockerRegistryServiceConnection: '4035ab73-ad55-4960-8303-02b3ca05d3f7'
+  dockerRegistryServiceConnection: 'a560be18-a921-4136-b623-d60c31411883'
   imageRepository: 'msierskiuionazure'
   containerRegistry: 'msifioridockerapp.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/FioriSampleApp/Dockerfile'
